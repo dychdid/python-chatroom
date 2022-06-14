@@ -11,9 +11,8 @@ client_sockets = set()
 # create a TCP socket
 s = socket.socket()
 # make the port as reusable port
-s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-# bind the socket to the address we specified
-s.bind((SERVER_HOST, SERVER_PORT))
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind(('84.68.10.12', 8080))
 # listen for upcoming connections
 s.listen(5)
 print(f"[*] Listening as {SERVER_HOST}:{SERVER_PORT}")
