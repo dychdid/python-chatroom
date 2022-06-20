@@ -25,7 +25,7 @@ SERVER_PORT = 5002 # server's port
 separator_token = "<SEP>" # we will use this to separate the client name & message
 socket.settimeout(20)
 except socket.error:
-    print("Timeout of 20 seconds reached. Aborted.")
+    print("Timeout of 20 secs reached. Aborted.")
 
 # initialize TCP socket
 s = socket.socket()
