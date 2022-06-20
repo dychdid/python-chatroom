@@ -23,12 +23,14 @@ client_color = random.choice(colors)
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 5002 # server's port
 separator_token = "<SEP>" # we will use this to separate the client name & message
-socket.settimeout(20)
-except socket.error:
-    print("Timeout of 20 secs reached. Aborted.")
 
 # initialize TCP socket
-s = socket.socket()
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+socks.settimeout(10.0) # settimeout is the attr of socks.
+sock.connect(address)
+sock.settimeout(None)
+fileobj = sock.makefile('rb', 0)
+
 print(f"[*] Connecting to {SERVER_HOST}:{SERVER_PORT}...")
 # connect to the server
 s.connect((SERVER_HOST, SERVER_PORT))
