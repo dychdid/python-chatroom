@@ -1,0 +1,24 @@
+{
+  "name": "python-chatroom",
+  "version": "0.0.0",
+  "description": "A simple Python chatroom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "chatroom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dychdid/python-chatroom.git"
+  },
+  "keywords": [
+    "chatroom",
+    "python",
+    "simple"
+  ],
+  "author": "dychdid",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/dychdid/python-chatroom/issues"
+  },
+  "homepage": "https://github.com/dychdid/python-chatroom#readme"
+}
