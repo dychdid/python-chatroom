@@ -4,7 +4,7 @@
   "description": "A simple Python chatroom.",
   "main": "index.js",
   "scripts": {
-    "test": "python main-files/server.py"
+    "test": "cd"
   },
   "repository": {
     "type": "git",
