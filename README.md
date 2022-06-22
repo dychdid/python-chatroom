@@ -1,4 +1,8 @@
 # Python Chatroom
+[![Package Quality](https://packagequality.com/shield/python-chatroom.svg)](https://packagequality.com/#?package=python-chatroom)<br>
+[![Coverage Status](https://coveralls.io/repos/github/dychdid/python-chatroom/badge.svg?branch=master)](https://coveralls.io/github/dychdid/python-chatroom?branch=master)<br>
+[![Package Quality](https://packagequality.com/badge/python-chatroom.png)](https://packagequality.com/#?package=python-chatroom)
+<br>
 A simple Python chatroom.
 
 ## Usage
